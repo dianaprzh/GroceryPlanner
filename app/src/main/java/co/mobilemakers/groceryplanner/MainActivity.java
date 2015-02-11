@@ -1,5 +1,9 @@
 package co.mobilemakers.groceryplanner;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,18 +12,26 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+    private final static String MAIN = "MAIN";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new WelcomeFragment())
-                    .commit();
-        }
+        customizeActionBar();
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction()
+                .add(R.id.container, new WelcomeFragment()).addToBackStack(MAIN)
+                .commit();
     }
 
 
+    private void customizeActionBar() {
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(R.string.action_bar_title);
+        actionBar.setIcon(R.drawable.ic_grosery);
+        actionBar.setDisplayShowHomeEnabled(true);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

@@ -4,5 +4,12 @@
     <string name="app_name">GroceryPlanner</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="text_view_welcome_msg">Grosery Planner</string>
+    <string name="button_go">GO!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_bar_title">Grosery Planner</string>
+    <string name="text_view_title_choose">Choose your kind of grosery!</string>
+    <string name="text_view_other_grosery">Couldn\'t find your grosery?, so go and add it by yourself</string>
+    <string name="button_add_other">+</string>
 
 </resources>
