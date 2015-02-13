@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="co.mobilemakers.groceryplanner.MainGroceryActivity">
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -9,7 +11,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/text_view_title_choose"
         android:id="@+id/text_view_title_choose"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -17,19 +20,17 @@
         android:layout_height="wrap_content"
         android:padding="10dp">
 
-        <Button
+        <Button android:id="@+id/button_vegetables"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button" />
+            android:text="@string/button_vegetables" />
 
-        <Button
+        <Button android:id="@+id/button_fruits"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button2"/>
+            android:text="@string/button_fruits" />
     </LinearLayout>
 
     <LinearLayout
@@ -38,19 +39,17 @@
         android:layout_height="wrap_content"
         android:padding="10dp">
 
-        <Button
+        <Button android:id="@+id/button_bakery"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button3" />
+            android:text="@string/button_bakey"/>
 
-        <Button
+        <Button android:id="@+id/button_meat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button4" />
+            android:text="@string/button_meat" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,19 +58,17 @@
         android:layout_height="wrap_content"
         android:padding="10dp">
 
-        <Button
+        <Button android:id="@+id/button_cereals"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button5" />
+            android:text="@string/button_cereals" />
 
-        <Button
+        <Button android:id="@+id/button_condiments"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button6" />
+            android:text="@string/button_condiments" />
     </LinearLayout>
 
     <LinearLayout
@@ -80,40 +77,17 @@
         android:layout_height="wrap_content"
         android:padding="10dp">
 
-        <Button
+        <Button android:id="@+id/button_beverages"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button7" />
+            android:text="@string/button_beverages" />
 
-        <Button
+        <Button android:id="@+id/button_canned_goods"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button8" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp">
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button9" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="New Button"
-            android:id="@+id/button10" />
+            android:text="@string/button_canned_goods" />
     </LinearLayout>
 
     <TextView
@@ -129,5 +103,11 @@
         android:text="@string/button_add_other"
         android:layout_gravity="right"
         android:background="@drawable/button_style" />
+
+    <Button android:id="@+id/button_see_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/button_see_list"
+        android:background="@drawable/button_style"/>
 
 </LinearLayout>

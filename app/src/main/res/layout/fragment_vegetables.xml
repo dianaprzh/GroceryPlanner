@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_title_vegetables"
+        android:id="@+id/text_view_title_vegetables"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_cucumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/checkbox_cucumber" />
+
+            <EditText   android:id="@+id/edit_text_cucumber_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_lettuce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkBox_lettuce" />
+
+            <EditText   android:id="@+id/edit_text_lettuce_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_mushrooms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkBox_mushrooms" />
+
+            <EditText   android:id="@+id/edit_text_mushrooms_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_asparagus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkBox_asparagus" />
+
+            <EditText   android:id="@+id/edit_text_asparagus_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_broccoli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkBox_broccoli" />
+
+            <EditText   android:id="@+id/edit_text_broccoli_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_spinach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkBox_spinach" />
+
+            <EditText   android:id="@+id/edit_text_spinach_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_onions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkBox_onions" />
+
+            <EditText   android:id="@+id/edit_text_onions_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:hint="@string/edit_text_quantity_hint"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_tomatoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox_tomatoes" />
+
+            <EditText   android:id="@+id/edit_text_tomatoes_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_garlic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox_garlic" />
+
+            <EditText   android:id="@+id/edit_text_garlic_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button android:id="@+id/button_add_to_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/button_add_to_list"
+        android:layout_gravity="right"
+        android:background="@drawable/button_style"
+        android:enabled="false"/>
+
+</LinearLayout>

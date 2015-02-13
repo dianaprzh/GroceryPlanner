@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_title_cereals"
+        android:id="@+id/text_view_title_cereals"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_musli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/checkbox_musli" />
+
+            <EditText   android:id="@+id/edit_text_musli_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_all_bran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox_all_bran" />
+
+            <EditText   android:id="@+id/edit_text_all_bran_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_chocolate_rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox_chocolate_rice" />
+
+            <EditText   android:id="@+id/edit_text_chocolate_rice_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_steel_cut_oats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox_steel_cut_oats" />
+
+            <EditText   android:id="@+id/edit_text_steel_cut_oats_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <CheckBox   android:id="@+id/checkBox_froot_loops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox_froot_loops" />
+
+            <EditText   android:id="@+id/edit_text_froot_loops_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:hint="@string/edit_text_quantity_hint"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button android:id="@+id/button_add_to_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/button_add_to_list"
+        android:layout_gravity="right"
+        android:background="@drawable/button_style"
+        android:enabled="false"/>
+
+</LinearLayout>

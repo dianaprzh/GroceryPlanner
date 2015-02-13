@@ -1,0 +1,42 @@
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="co.mobilemakers.groceryplanner.AddGroceryActivity"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_title_add"
+        android:id="@+id/text_view_title_add"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_grocery"
+        android:hint="@string/edit_text_grocery_hint"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_quantity"
+        android:hint="@string/edit_text_quantity_hint"
+        android:layout_gravity="right"
+        android:gravity="center" />
+
+    <Button android:id="@+id/button_add_to_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="@string/button_add_to_list"
+        android:background="@drawable/button_style"
+        android:layout_gravity="right"
+        android:enabled="false"/>
+</LinearLayout>

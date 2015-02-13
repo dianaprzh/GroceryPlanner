@@ -8,13 +8,33 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".WelcomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectionGroceryActivity"
+            android:label="@string/title_activity_selection_grosery" >
+        </activity>
+        <activity
+            android:name=".MainGroceryActivity"
+            android:label="@string/title_activity_main_grosery" >
+        </activity>
+        <activity
+            android:name=".AppSettingsActivity"
+            android:label="@string/title_activity_app_settingsy" >
+        </activity>
+        <activity
+            android:name=".SeeListActivity"
+            android:label="@string/title_activity_see_list" >
+        </activity>
+        <activity
+            android:name=".AddGroceryActivity"
+            android:label="@string/title_activity_add_grocery" >
         </activity>
     </application>
 
