@@ -1,6 +1,7 @@
 package co.mobilemakers.groceryplanner;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -25,10 +26,18 @@ public class AddGroceryActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_grocery);
+        customizeActionBar();
         prepareAddListButton();
         wireUpViews();
         addTextWatcher();
         mGroceryList = getIntent().getParcelableExtra(MainGroceryActivity.GROCERY_LIST);
+    }
+
+    private void customizeActionBar() {
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(R.string.action_bar_title);
+        actionBar.setIcon(R.drawable.ic_grocery);
+        actionBar.setDisplayShowHomeEnabled(true);
     }
 
     private void addTextWatcher() {

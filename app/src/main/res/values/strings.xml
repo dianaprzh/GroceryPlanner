@@ -8,7 +8,7 @@
     <string name="button_go">GO!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="action_bar_title">Grocery Planner</string>
-    <string name="text_view_title_choose">Choose your kind of grocery!</string>
+    <string name="text_view_title_choose">What do you want to buy?</string>
     <string name="text_view_other_grosery">Couldn\'t find your grocery?, so go ahead and add it by yourself</string>
     <string name="button_add_other">+</string>
     <string name="button_vegetables">Vegetables</string>
@@ -32,7 +32,8 @@
     <string name="checkBox_onions">Onions</string>
     <string name="checkBox_tomatoes">Tomatoes</string>
     <string name="checkBox_garlic">Garlic</string>
-    <string name="edit_text_quantity_hint">Quantity</string>
+    <string name="edit_text_how_many_hint">How many</string>
+    <string name="edit_text_how_much_hint">How much</string>
     <string name="button_add_to_list">Add to list</string>
     <string name="checkBox_whole_grain_bread">Whole grain bread</string>
     <string name="checkBox_brown_rice_wrap">Brown rice wrap</string>

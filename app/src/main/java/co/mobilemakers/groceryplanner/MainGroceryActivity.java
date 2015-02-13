@@ -98,7 +98,7 @@ public class MainGroceryActivity extends ActionBarActivity {
     private void customizeActionBar() {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.action_bar_title);
-        actionBar.setIcon(R.drawable.ic_grosery);
+        actionBar.setIcon(R.drawable.ic_grocery);
         actionBar.setDisplayShowHomeEnabled(true);
     }
 

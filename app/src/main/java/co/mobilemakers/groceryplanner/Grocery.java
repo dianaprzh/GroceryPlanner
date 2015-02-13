@@ -37,7 +37,7 @@ public class Grocery implements Parcelable{
 
     @Override
     public String toString() {
-        return "GROCERY: " + mName +", QUANTITY: " + mQuantity;
+        return "Grocery: " + mName +" Quantity: " + mQuantity;
     }
 
     @Override

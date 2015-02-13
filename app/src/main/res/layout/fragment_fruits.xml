@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -50,8 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -70,8 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -90,8 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -110,8 +107,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -130,8 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -150,8 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
@@ -170,8 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="number"
-                android:hint="@string/edit_text_quantity_hint"
+                android:hint="@string/edit_text_how_many_hint"
                 android:ems="10"
                 android:gravity="center"
                 android:enabled="false"/>
